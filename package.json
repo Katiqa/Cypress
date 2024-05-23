@@ -1,0 +1,23 @@
+{
+  "name": "cypressh1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-Chrome-Laptop-Headed": "cypress run --browser chrome --headed --config-file laptop.config.js",
+    "cypress-Chrome-Laptop-Headless": "cypress run --browser chrome --config-file laptop.config.js",
+    "cypress-Chrome-Mobile-Headed": "cypress run --browser chrome --headed --config-file mobile.config.js",
+    "cypress-Chrome-Mobile-Headless": "cypress run --browser chrome --config-file mobile.config.js",
+    "cypress-Edge-Laptop-Headed": "cypress run --browser edge --headed --config-file laptop.config.js",
+    "cypress-Edge-Laptop-Headless": "cypress run --browser edge --config-file laptop.config.js",
+    "cypress-Edge-Mobile-Headed": "cypress run --browser edge --headed --config-file mobile.config.js",
+    "cypress-Edge-Mobile-Headless": "cypress run --browser edge --config-file mobile.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
